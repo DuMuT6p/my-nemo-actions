@@ -31,7 +31,7 @@ Active=true
 Name=Enqueue in Audacious
 
 # Tool tip, locale supported (Appears in the status bar)
-Comment=This is a refresh that does nothing.
+Comment=Enqueue selected files in current running instance of Audacious player.
 
 # What to run.  Enclose in < > to run an executable that resides in the actions folder.
 # **** REQUIRED ****
@@ -81,7 +81,7 @@ Extensions=mp3;flac;ogg;
 # You can also supply an absolute path to a file (i.e. /usr/lib/gvfs/gvfsd-archive) to check
 # instead of or in addition to an executable in the path.
 # This is an array, separate entries with semi-colon, and terminate with a semicolon.
-#Dependencies=gedit;
+Dependencies=audacious;
 
 # Conditions - semicolon-separated array of special conditions:
 #     "desktop" current (parent) folder is desktop
