@@ -31,17 +31,17 @@ Active=true
 Name=Refresh
 
 # Tool tip, locale supported (Appears in the status bar)
-Comment=This is a refresh that does nothing.
+Comment=Refresh
 
 # What to run.  Enclose in < > to run an executable that resides in the actions folder.
 # **** REQUIRED ****
 #Exec=gedit %F
 
 # Can use command xrefresh
-Exec=
+Exec= xdotool key 0xffc2
 
 # Icon name to use in the menu - must be a theme icon name
-Icon-Name=
+Icon-Name=reload
 
 # Gtk Stock ID to use for the icon.  Note if both Icon-name and Stock-Id are
 # defined, the Stock-Id takes precedence.
